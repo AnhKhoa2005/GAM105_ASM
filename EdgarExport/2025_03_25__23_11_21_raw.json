@@ -1,0 +1,2159 @@
+{
+  "roomDescriptionsList": [
+    {
+      "Key": {
+        "Id": 0,
+        "Name": "1111_StartingArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "Name": "1111_StartingArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -26,
+                  "Y": 20
+                },
+                {
+                  "X": -26,
+                  "Y": 57
+                },
+                {
+                  "X": 93,
+                  "Y": 57
+                },
+                {
+                  "X": 93,
+                  "Y": 20
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": 93,
+                    "Y": 55
+                  },
+                  "To": {
+                    "X": 93,
+                    "Y": 50
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 1,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$id": "16",
+            "Name": "2111_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -10,
+                  "Y": -1
+                },
+                {
+                  "X": -10,
+                  "Y": 22
+                },
+                {
+                  "X": 60,
+                  "Y": 22
+                },
+                {
+                  "X": 60,
+                  "Y": -1
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -10,
+                    "Y": 6
+                  },
+                  "To": {
+                    "X": -10,
+                    "Y": 11
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 46,
+                    "Y": 22
+                  },
+                  "To": {
+                    "X": 57,
+                    "Y": 22
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "29",
+            "Name": "2112_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -37,
+                  "Y": -12
+                },
+                {
+                  "X": -37,
+                  "Y": 37
+                },
+                {
+                  "X": 19,
+                  "Y": 37
+                },
+                {
+                  "X": 19,
+                  "Y": -12
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -37,
+                    "Y": 8
+                  },
+                  "To": {
+                    "X": -37,
+                    "Y": 3
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": -8,
+                    "Y": -12
+                  },
+                  "To": {
+                    "X": 3,
+                    "Y": -12
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "42",
+            "Name": "2113_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -6,
+                  "Y": 0
+                },
+                {
+                  "X": -6,
+                  "Y": 29
+                },
+                {
+                  "X": 40,
+                  "Y": 29
+                },
+                {
+                  "X": 40,
+                  "Y": 0
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -6,
+                    "Y": 9
+                  },
+                  "To": {
+                    "X": -6,
+                    "Y": 4
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 40,
+                    "Y": 29
+                  },
+                  "To": {
+                    "X": 40,
+                    "Y": 24
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "55",
+            "Name": "2114_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -46,
+                  "Y": -15
+                },
+                {
+                  "X": -46,
+                  "Y": 12
+                },
+                {
+                  "X": 31,
+                  "Y": 12
+                },
+                {
+                  "X": 31,
+                  "Y": -15
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -43,
+                    "Y": 12
+                  },
+                  "To": {
+                    "X": -32,
+                    "Y": 12
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 31,
+                    "Y": 9
+                  },
+                  "To": {
+                    "X": 31,
+                    "Y": 4
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "68",
+            "Name": "2115_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -5,
+                  "Y": 6
+                },
+                {
+                  "X": -5,
+                  "Y": 46
+                },
+                {
+                  "X": 46,
+                  "Y": 46
+                },
+                {
+                  "X": 46,
+                  "Y": 6
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": 46,
+                    "Y": 19
+                  },
+                  "To": {
+                    "X": 46,
+                    "Y": 14
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": -2,
+                    "Y": 6
+                  },
+                  "To": {
+                    "X": 9,
+                    "Y": 6
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "81",
+            "Name": "2116_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -34,
+                  "Y": -9
+                },
+                {
+                  "X": -34,
+                  "Y": 22
+                },
+                {
+                  "X": 82,
+                  "Y": 22
+                },
+                {
+                  "X": 82,
+                  "Y": -9
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": 2,
+                    "Y": -9
+                  },
+                  "To": {
+                    "X": 13,
+                    "Y": -9
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 60,
+                    "Y": 22
+                  },
+                  "To": {
+                    "X": 71,
+                    "Y": 22
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 2,
+        "Name": "FinalArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "Name": "4111_FinalArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -48,
+                  "Y": 10
+                },
+                {
+                  "X": -48,
+                  "Y": 45
+                },
+                {
+                  "X": 37,
+                  "Y": 45
+                },
+                {
+                  "X": 37,
+                  "Y": 10
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -48,
+                    "Y": 17
+                  },
+                  "To": {
+                    "X": -48,
+                    "Y": 22
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 3,
+        "Name": "213_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "Name": "2131_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -7,
+                  "Y": -4
+                },
+                {
+                  "X": -7,
+                  "Y": 29
+                },
+                {
+                  "X": 70,
+                  "Y": 29
+                },
+                {
+                  "X": 70,
+                  "Y": -4
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -7,
+                    "Y": 4
+                  },
+                  "To": {
+                    "X": -7,
+                    "Y": 9
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 70,
+                    "Y": 2
+                  },
+                  "To": {
+                    "X": 70,
+                    "Y": 7
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 51,
+                    "Y": 29
+                  },
+                  "To": {
+                    "X": 62,
+                    "Y": 29
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": -2,
+                    "Y": -4
+                  },
+                  "To": {
+                    "X": 9,
+                    "Y": -4
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 4,
+        "Name": "212_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$id": "129",
+            "Name": "2121_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -7,
+                  "Y": -2
+                },
+                {
+                  "X": -7,
+                  "Y": 29
+                },
+                {
+                  "X": 70,
+                  "Y": 29
+                },
+                {
+                  "X": 70,
+                  "Y": -2
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -7,
+                    "Y": 4
+                  },
+                  "To": {
+                    "X": -7,
+                    "Y": 9
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 70,
+                    "Y": 2
+                  },
+                  "To": {
+                    "X": 70,
+                    "Y": 7
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 51,
+                    "Y": 29
+                  },
+                  "To": {
+                    "X": 62,
+                    "Y": 29
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "145",
+            "Name": "2122_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -8,
+                  "Y": -37
+                },
+                {
+                  "X": -8,
+                  "Y": -3
+                },
+                {
+                  "X": 53,
+                  "Y": -3
+                },
+                {
+                  "X": 53,
+                  "Y": -37
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -8,
+                    "Y": -17
+                  },
+                  "To": {
+                    "X": -8,
+                    "Y": -22
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 21,
+                    "Y": -37
+                  },
+                  "To": {
+                    "X": 32,
+                    "Y": -37
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 53,
+                    "Y": -3
+                  },
+                  "To": {
+                    "X": 53,
+                    "Y": -8
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "161",
+            "Name": "2123_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -125,
+                  "Y": 1
+                },
+                {
+                  "X": -125,
+                  "Y": 32
+                },
+                {
+                  "X": -9,
+                  "Y": 32
+                },
+                {
+                  "X": -9,
+                  "Y": 1
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -125,
+                    "Y": 18
+                  },
+                  "To": {
+                    "X": -125,
+                    "Y": 13
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": -89,
+                    "Y": 1
+                  },
+                  "To": {
+                    "X": -78,
+                    "Y": 1
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": -31,
+                    "Y": 32
+                  },
+                  "To": {
+                    "X": -20,
+                    "Y": 32
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "177",
+            "Name": "2124_MiddleArea",
+            "Outline": {
+              "points": [
+                {
+                  "X": -34,
+                  "Y": -9
+                },
+                {
+                  "X": -34,
+                  "Y": 22
+                },
+                {
+                  "X": 85,
+                  "Y": 22
+                },
+                {
+                  "X": 85,
+                  "Y": -9
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": 2,
+                    "Y": -9
+                  },
+                  "To": {
+                    "X": 13,
+                    "Y": -9
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 60,
+                    "Y": 22
+                  },
+                  "To": {
+                    "X": 71,
+                    "Y": 22
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 85,
+                    "Y": 9
+                  },
+                  "To": {
+                    "X": 85,
+                    "Y": 4
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 5,
+        "Name": "DeadEnd"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$id": "195",
+            "Name": "3111_DeadEnd",
+            "Outline": {
+              "points": [
+                {
+                  "X": -14,
+                  "Y": -4
+                },
+                {
+                  "X": -14,
+                  "Y": 33
+                },
+                {
+                  "X": 46,
+                  "Y": 33
+                },
+                {
+                  "X": 46,
+                  "Y": -4
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -14,
+                    "Y": 11
+                  },
+                  "To": {
+                    "X": -14,
+                    "Y": 6
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "205",
+            "Name": "3112_DeadEnd",
+            "Outline": {
+              "points": [
+                {
+                  "X": -38,
+                  "Y": -8
+                },
+                {
+                  "X": -38,
+                  "Y": 29
+                },
+                {
+                  "X": 22,
+                  "Y": 29
+                },
+                {
+                  "X": 22,
+                  "Y": -8
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": 22,
+                    "Y": 7
+                  },
+                  "To": {
+                    "X": 22,
+                    "Y": 2
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "215",
+            "Name": "3113_DeadEnd",
+            "Outline": {
+              "points": [
+                {
+                  "X": -38,
+                  "Y": -9
+                },
+                {
+                  "X": -38,
+                  "Y": 29
+                },
+                {
+                  "X": 25,
+                  "Y": 29
+                },
+                {
+                  "X": 25,
+                  "Y": -9
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -24,
+                    "Y": -9
+                  },
+                  "To": {
+                    "X": -13,
+                    "Y": -9
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "$id": "225",
+            "Name": "3114_DeadEnd",
+            "Outline": {
+              "points": [
+                {
+                  "X": -38,
+                  "Y": -5
+                },
+                {
+                  "X": -38,
+                  "Y": 28
+                },
+                {
+                  "X": 25,
+                  "Y": 28
+                },
+                {
+                  "X": 25,
+                  "Y": -5
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -2,
+                    "Y": 28
+                  },
+                  "To": {
+                    "X": 9,
+                    "Y": 28
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 6,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "16"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "42"
+          },
+          {
+            "$ref": "55"
+          },
+          {
+            "$ref": "68"
+          },
+          {
+            "$ref": "81"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 7,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "16"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "42"
+          },
+          {
+            "$ref": "55"
+          },
+          {
+            "$ref": "68"
+          },
+          {
+            "$ref": "81"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 8,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "16"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "42"
+          },
+          {
+            "$ref": "55"
+          },
+          {
+            "$ref": "68"
+          },
+          {
+            "$ref": "81"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 9,
+        "Name": "212_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "129"
+          },
+          {
+            "$ref": "145"
+          },
+          {
+            "$ref": "161"
+          },
+          {
+            "$ref": "177"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 10,
+        "Name": "DeadEnd"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "195"
+          },
+          {
+            "$ref": "205"
+          },
+          {
+            "$ref": "215"
+          },
+          {
+            "$ref": "225"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 11,
+        "Name": "DeadEnd"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "195"
+          },
+          {
+            "$ref": "205"
+          },
+          {
+            "$ref": "215"
+          },
+          {
+            "$ref": "225"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 12,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "16"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "42"
+          },
+          {
+            "$ref": "55"
+          },
+          {
+            "$ref": "68"
+          },
+          {
+            "$ref": "81"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 13,
+        "Name": "DeadEnd"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "195"
+          },
+          {
+            "$ref": "205"
+          },
+          {
+            "$ref": "215"
+          },
+          {
+            "$ref": "225"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 14,
+        "Name": "212_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "129"
+          },
+          {
+            "$ref": "145"
+          },
+          {
+            "$ref": "161"
+          },
+          {
+            "$ref": "177"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 15,
+        "Name": "DeadEnd"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "195"
+          },
+          {
+            "$ref": "205"
+          },
+          {
+            "$ref": "215"
+          },
+          {
+            "$ref": "225"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 16,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "16"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "42"
+          },
+          {
+            "$ref": "55"
+          },
+          {
+            "$ref": "68"
+          },
+          {
+            "$ref": "81"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 17,
+        "Name": "DeadEnd"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "195"
+          },
+          {
+            "$ref": "205"
+          },
+          {
+            "$ref": "215"
+          },
+          {
+            "$ref": "225"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 18,
+        "Name": "212_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "129"
+          },
+          {
+            "$ref": "145"
+          },
+          {
+            "$ref": "161"
+          },
+          {
+            "$ref": "177"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 19,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "16"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "42"
+          },
+          {
+            "$ref": "55"
+          },
+          {
+            "$ref": "68"
+          },
+          {
+            "$ref": "81"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 20,
+        "Name": "212_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "129"
+          },
+          {
+            "$ref": "145"
+          },
+          {
+            "$ref": "161"
+          },
+          {
+            "$ref": "177"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 21,
+        "Name": "211_MiddleArea"
+      },
+      "Value": {
+        "IsCorridor": false,
+        "RoomTemplates": [
+          {
+            "$ref": "16"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "42"
+          },
+          {
+            "$ref": "55"
+          },
+          {
+            "$ref": "68"
+          },
+          {
+            "$ref": "81"
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 22,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$id": "268",
+        "IsCorridor": true,
+        "RoomTemplates": [
+          {
+            "Name": "CorridorLR",
+            "Outline": {
+              "points": [
+                {
+                  "X": -7,
+                  "Y": -1
+                },
+                {
+                  "X": -7,
+                  "Y": 8
+                },
+                {
+                  "X": 6,
+                  "Y": 8
+                },
+                {
+                  "X": 6,
+                  "Y": -1
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": -7,
+                    "Y": 3
+                  },
+                  "To": {
+                    "X": -7,
+                    "Y": 8
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 6,
+                    "Y": 3
+                  },
+                  "To": {
+                    "X": 6,
+                    "Y": 8
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          },
+          {
+            "Name": "CorridorUD",
+            "Outline": {
+              "points": [
+                {
+                  "X": -2,
+                  "Y": 0
+                },
+                {
+                  "X": -2,
+                  "Y": 7
+                },
+                {
+                  "X": 15,
+                  "Y": 7
+                },
+                {
+                  "X": 15,
+                  "Y": 0
+                }
+              ]
+            },
+            "Doors": {
+              "$type": "Edgar.GraphBasedGenerator.Grid2D.ManualDoorModeGrid2D, EdgarSingleFile",
+              "Doors": [
+                {
+                  "From": {
+                    "X": 1,
+                    "Y": 0
+                  },
+                  "To": {
+                    "X": 12,
+                    "Y": 0
+                  },
+                  "Type": 0
+                },
+                {
+                  "From": {
+                    "X": 1,
+                    "Y": 7
+                  },
+                  "To": {
+                    "X": 12,
+                    "Y": 7
+                  },
+                  "Type": 0
+                }
+              ],
+              "DoorLines": null
+            },
+            "RepeatMode": 0,
+            "AllowedTransformations": [
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": {
+        "Id": 23,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 24,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 25,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 26,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 27,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 28,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 29,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 30,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 31,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 32,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 33,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 34,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 35,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 36,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 37,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 38,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 39,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 40,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 41,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    },
+    {
+      "Key": {
+        "Id": 42,
+        "Name": "Corridor"
+      },
+      "Value": {
+        "$ref": "268"
+      }
+    }
+  ],
+  "passages": [
+    {
+      "Room1": {
+        "Id": 0,
+        "Name": "1111_StartingArea"
+      },
+      "Room2": {
+        "Id": 22,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 1,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 22,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 1,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 23,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 2,
+        "Name": "FinalArea"
+      },
+      "Room2": {
+        "Id": 40,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 3,
+        "Name": "213_MiddleArea"
+      },
+      "Room2": {
+        "Id": 24,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 3,
+        "Name": "213_MiddleArea"
+      },
+      "Room2": {
+        "Id": 27,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 3,
+        "Name": "213_MiddleArea"
+      },
+      "Room2": {
+        "Id": 28,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 3,
+        "Name": "213_MiddleArea"
+      },
+      "Room2": {
+        "Id": 32,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 4,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 23,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 4,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 24,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 4,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 25,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 5,
+        "Name": "DeadEnd"
+      },
+      "Room2": {
+        "Id": 26,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 6,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 25,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 6,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 26,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 7,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 27,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 7,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 37,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 8,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 28,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 8,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 29,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 9,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 29,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 9,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 30,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 9,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 31,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 10,
+        "Name": "DeadEnd"
+      },
+      "Room2": {
+        "Id": 30,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 11,
+        "Name": "DeadEnd"
+      },
+      "Room2": {
+        "Id": 31,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 12,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 32,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 12,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 33,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 13,
+        "Name": "DeadEnd"
+      },
+      "Room2": {
+        "Id": 33,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 14,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 34,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 14,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 35,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 14,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 38,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 15,
+        "Name": "DeadEnd"
+      },
+      "Room2": {
+        "Id": 34,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 16,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 35,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 16,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 36,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 17,
+        "Name": "DeadEnd"
+      },
+      "Room2": {
+        "Id": 36,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 18,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 37,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 18,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 38,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 18,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 39,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 19,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 39,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 19,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 42,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 20,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 40,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 20,
+        "Name": "212_MiddleArea"
+      },
+      "Room2": {
+        "Id": 41,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 21,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 41,
+        "Name": "Corridor"
+      }
+    },
+    {
+      "Room1": {
+        "Id": 21,
+        "Name": "211_MiddleArea"
+      },
+      "Room2": {
+        "Id": 42,
+        "Name": "Corridor"
+      }
+    }
+  ],
+  "MinimumRoomDistance": 0,
+  "Clusters": null,
+  "Constraints": null,
+  "RoomTemplateRepeatModeDefault": 2,
+  "RoomTemplateRepeatModeOverride": null,
+  "Name": null
+}
