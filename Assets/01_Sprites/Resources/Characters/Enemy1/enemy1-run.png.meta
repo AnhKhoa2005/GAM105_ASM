@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 045a5d757d0819d4a9155f2721ec5549
+guid: 54212d44004e8ec4fbd013e8894ae866
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -163,10 +163,10 @@ TextureImporter:
       name: enemy1-run_0
       rect:
         serializedVersion: 2
-        x: 70
-        y: 39
-        width: 24
-        height: 38
+        x: 0
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,10 +185,10 @@ TextureImporter:
       name: enemy1-run_1
       rect:
         serializedVersion: 2
-        x: 261
-        y: 42
-        width: 24
-        height: 35
+        x: 192
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: enemy1-run_2
       rect:
         serializedVersion: 2
-        x: 452
-        y: 37
-        width: 25
-        height: 42
+        x: 384
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: enemy1-run_3
       rect:
         serializedVersion: 2
-        x: 648
-        y: 37
-        width: 21
-        height: 35
+        x: 576
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: enemy1-run_4
       rect:
         serializedVersion: 2
-        x: 837
-        y: 38
-        width: 23
-        height: 37
+        x: 768
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +273,10 @@ TextureImporter:
       name: enemy1-run_5
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 40
-        width: 25
-        height: 38
+        x: 960
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: enemy1-run_6
       rect:
         serializedVersion: 2
-        x: 1219
-        y: 37
-        width: 25
-        height: 41
+        x: 1152
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: enemy1-run_7
       rect:
         serializedVersion: 2
-        x: 1417
-        y: 37
-        width: 19
-        height: 35
+        x: 1344
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,7 +339,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d3650cf9a9a5e544c9ae237e29cad0e2
     internalID: 0
     vertices: []
     indices: 
@@ -348,7 +348,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy1-run_0: 8275779063913573582
+      enemy1-run_1: 66446971694662599
+      enemy1-run_2: 4003376156610741242
+      enemy1-run_3: 2971685274389773201
+      enemy1-run_4: -2657457303460884789
+      enemy1-run_5: -897765757429016544
+      enemy1-run_6: 8268202776261328089
+      enemy1-run_7: -497957345036784372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "GAM105_ASM.sln"
+    "dotnet.defaultSolution": "Grass Land.sln"
 }

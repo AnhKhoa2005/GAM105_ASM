@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf5e4a20a13b9c244a77265017499899
+guid: 93744257bc3dc4647ba0ccd1a4297231
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -163,10 +163,10 @@ TextureImporter:
       name: enemy1-idle_0
       rect:
         serializedVersion: 2
-        x: 66
-        y: 37
-        width: 26
-        height: 39
+        x: 0
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,10 +185,10 @@ TextureImporter:
       name: enemy1-idle_1
       rect:
         serializedVersion: 2
-        x: 258
-        y: 37
-        width: 26
-        height: 38
+        x: 192
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: enemy1-idle_2
       rect:
         serializedVersion: 2
-        x: 451
-        y: 37
-        width: 25
-        height: 37
+        x: 384
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: enemy1-idle_3
       rect:
         serializedVersion: 2
-        x: 645
-        y: 37
-        width: 24
-        height: 35
+        x: 576
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: enemy1-idle_4
       rect:
         serializedVersion: 2
-        x: 837
-        y: 37
-        width: 24
-        height: 33
+        x: 768
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +273,10 @@ TextureImporter:
       name: enemy1-idle_5
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 37
-        width: 24
-        height: 36
+        x: 960
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: enemy1-idle_6
       rect:
         serializedVersion: 2
-        x: 1220
-        y: 37
-        width: 25
-        height: 38
+        x: 1152
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: enemy1-idle_7
       rect:
         serializedVersion: 2
-        x: 1410
-        y: 37
-        width: 27
-        height: 38
+        x: 1344
+        y: 0
+        width: 192
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,7 +339,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 14e06b046c89a094e89981c4a04ef7a7
     internalID: 0
     vertices: []
     indices: 
@@ -348,7 +348,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy1-idle_0: -7965226298060125710
+      enemy1-idle_1: -1819355680886608957
+      enemy1-idle_2: 8701380460038964317
+      enemy1-idle_3: 7409796376296151254
+      enemy1-idle_4: -2415524172588648953
+      enemy1-idle_5: 3235690772117206589
+      enemy1-idle_6: -5270394627679975701
+      enemy1-idle_7: 4730053173962770422
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

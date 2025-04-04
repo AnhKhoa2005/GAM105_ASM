@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7746364c8f2ea43499b2429c9bf6b558
+guid: 0f27e9655868fac4b9fcb365fb82e346
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -348,7 +348,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      campfire 1-1_0: 794546367249621850
+      campfire 1-1_1: 8675654703988450312
+      campfire 1-1_2: 6145743117743315559
+      campfire 1-1_3: 5996321831264781134
+      campfire 1-1_4: 8312195680935970707
+      campfire 1-1_5: -1751614305589629001
+      campfire 1-1_6: -7832206695808788542
+      campfire 1-1_7: -9168370519685238888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

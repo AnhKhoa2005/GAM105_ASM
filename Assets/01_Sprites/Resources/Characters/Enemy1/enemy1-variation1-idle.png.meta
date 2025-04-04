@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5afd1a9fa6d4c704ba1aa0308eda45e4
+guid: e922454462c20df46b1af3cb7f60dd47
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -348,7 +348,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy1-variation1-idle_0: 1847612411921907300
+      enemy1-variation1-idle_1: -3764240672121696452
+      enemy1-variation1-idle_2: -3738843822517566550
+      enemy1-variation1-idle_3: -8465592303010862277
+      enemy1-variation1-idle_4: -5699992419610210158
+      enemy1-variation1-idle_5: 8757644799643313988
+      enemy1-variation1-idle_6: -727897612130467070
+      enemy1-variation1-idle_7: -2249411669412395849
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

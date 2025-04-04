@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cfa5fee1c4fd389479a5ed40a1633070
+guid: 7720967c9c10ba0469d89a3aa4ba388a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -76,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +90,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -498,7 +498,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy1-variation1-atk2_0: 4532372584354339533
+      enemy1-variation1-atk2_1: 2360577811677106949
+      enemy1-variation1-atk2_10: 5348959575941486294
+      enemy1-variation1-atk2_11: 615279370376109076
+      enemy1-variation1-atk2_12: -3343973205412336124
+      enemy1-variation1-atk2_13: -1894841256430332670
+      enemy1-variation1-atk2_2: 6611855802073527766
+      enemy1-variation1-atk2_3: 8873134773342710581
+      enemy1-variation1-atk2_4: -8205734163213228973
+      enemy1-variation1-atk2_5: 3183230520686709801
+      enemy1-variation1-atk2_6: 8943442153279459396
+      enemy1-variation1-atk2_7: -6947281675919266912
+      enemy1-variation1-atk2_8: 835972072983678113
+      enemy1-variation1-atk2_9: 2851641259661920626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
