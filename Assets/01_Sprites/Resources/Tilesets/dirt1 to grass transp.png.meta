@@ -81,9 +81,9 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -223,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dirt1 to grass transp_0: 8916782250017649336
+      dirt1 to grass transp_1: -8499035327244766051
+      dirt1 to grass transp_2: -425844287467931292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

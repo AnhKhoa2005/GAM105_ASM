@@ -93,12 +93,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -348,7 +348,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      forge1-anim1_0: -3425536206825133303
+      forge1-anim1_1: -4596166485545133086
+      forge1-anim1_2: 6926270760550091747
+      forge1-anim1_3: 7172809811403739601
+      forge1-anim1_4: 4493143409723494095
+      forge1-anim1_5: -1043251554441123491
+      forge1-anim1_6: -4282768312384150609
+      forge1-anim1_7: -3537919544101402990
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

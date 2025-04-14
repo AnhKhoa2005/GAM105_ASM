@@ -108,12 +108,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -473,7 +473,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      treasure chest lvl 3-opening animation-cartoon style(1)_0: 6602461972437513373
+      treasure chest lvl 3-opening animation-cartoon style(1)_1: -6864690992198102248
+      treasure chest lvl 3-opening animation-cartoon style(1)_10: 2398466957304795966
+      treasure chest lvl 3-opening animation-cartoon style(1)_11: -515901307397392453
+      treasure chest lvl 3-opening animation-cartoon style(1)_12: 515759735631444093
+      treasure chest lvl 3-opening animation-cartoon style(1)_2: -5925489284586649400
+      treasure chest lvl 3-opening animation-cartoon style(1)_3: 4964700967231138093
+      treasure chest lvl 3-opening animation-cartoon style(1)_4: -4629142932337891983
+      treasure chest lvl 3-opening animation-cartoon style(1)_5: -6080426019600835174
+      treasure chest lvl 3-opening animation-cartoon style(1)_6: 7171004663352096036
+      treasure chest lvl 3-opening animation-cartoon style(1)_7: 1812509731774824577
+      treasure chest lvl 3-opening animation-cartoon style(1)_8: 5671312506796411048
+      treasure chest lvl 3-opening animation-cartoon style(1)_9: -2245645738632022568
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

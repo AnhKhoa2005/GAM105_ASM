@@ -81,12 +81,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      grass as sprites - darker_4_0: 7368136522305388586
+      grass as sprites - darker_4_1: 2324672680094163747
+      grass as sprites - darker_4_2: -6581272788949262609
+      grass as sprites - darker_4_3: 3641326631744783349
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

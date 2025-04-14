@@ -1,16 +1,16 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : Entity, IGethit
 {
     [SerializeField] private float DetectRadius = 10, durMove = 1, attackCooldown = 2f, durPushBack = 0.2f;
-    [SerializeField] private LayerMask layerMask, obstacleLayerMask;
+    [SerializeField] private LayerMask playerLayerMask, obstacleLayerMask;
+    [SerializeField] private Slider HP_Bar;
+    [SerializeField] private GameObject HP_Prefab, popupTextPrefab;
 
-
-
-    private float tempSpeed, countdown = 0, attackCountdown = 1f;
+    private float tempSpeed, countdown = 0, attackCountdown = 1f, HPCount;
     private bool isAttacking = false, isHurting = false, isDeath = false, isPushBack = false;
     private GameObject player = null;
     private Vector2 pushBackVelocity;
@@ -40,6 +40,7 @@ public class Enemy : Entity, IGethit
         Flip();
         Cooldown();
         UpdateAnimation();
+        UI();
     }
     protected override void Move()
     {
@@ -50,7 +51,7 @@ public class Enemy : Entity, IGethit
                 rb.linearVelocity = pushBackVelocity;
                 return;
             }
-            rb.linearVelocity = movement.normalized * 0;
+            rb.linearVelocity = Vector2.zero;
             return;
         }
 
@@ -65,13 +66,16 @@ public class Enemy : Entity, IGethit
         }
         else
         {
-            movement = player.transform.position - this.transform.position;
-
-            if (Vector2.Distance(player.transform.position, this.transform.position) <= 1) // Nếu tới khoảng cách nhất định enemy sẽ dừng để tán công
+            if (Vector2.Distance(player.transform.position, this.transform.position) <= 0.7)
             {
+                MoveRandom();
+            }
+            else movement = player.transform.position - this.transform.position;
 
+            if (Vector2.Distance(player.transform.position, this.transform.position) <= 1 && Vector2.Distance(player.transform.position, this.transform.position) > 0.7) // Nếu tới khoảng cách nhất định enemy sẽ dừng để tán công
+            {
+                rb.linearVelocity = Vector2.zero;
                 AttackAuto();
-                rb.linearVelocity = movement.normalized * 0;
                 return;
             }
         }
@@ -113,7 +117,7 @@ public class Enemy : Entity, IGethit
             return;
         }
         //Đứng yên
-        if (movement.x == 0 && movement.y == 0 || speed == 0)
+        if (rb.linearVelocity == Vector2.zero)
         {
             ani.CrossFade("Idle", 0f);
             return;
@@ -127,9 +131,19 @@ public class Enemy : Entity, IGethit
         }
     }
 
+    void UI()
+    {
+        HP_Bar.value = HP;
+    }
     public void Gethit(float damage)
     {
         HP -= damage;
+        AudioManager.ins.PlaySFX(AudioManager.ins.Gethit_SFXClip);
+
+        GameObject damageText = Instantiate(popupTextPrefab, this.transform.position, Quaternion.identity);
+        damageText.GetComponent<PopUpText>().Init("-" + damage.ToString(), Color.red);
+        Destroy(damageText, 1f);
+
         StartCoroutine("Hurting");
         if (HP <= 0)
         {
@@ -146,15 +160,33 @@ public class Enemy : Entity, IGethit
     IEnumerator Death()
     {
         isDeath = true;
-        yield return new WaitForSeconds(1f);
+        GameManager.ins._EnemyCount--;
+        HPCount = UnityEngine.Random.Range(1, 5); // random số HP rơi ra 1-4
+        HP_Fall();
+
+        gameObject.GetComponent<Collider2D>().enabled = false; // tắt collider của enemy để khỏng va chạm với player
+        isAttacking = false;
+        isPushBack = false;
+        atk.enabled = false; // tắt attack của enemy
+
+        yield return new WaitForSeconds(5); // tránh hp chưa rơi hết
         Destroy(this.gameObject);
+    }
+
+    void HP_Fall()
+    {
+        for (int i = 1; i <= HPCount; i++)
+        {
+            Debug.Log("HP rơi ra" + HPCount);
+            Instantiate(HP_Prefab, this.transform.position, Quaternion.identity);
+        }
     }
 
     bool DetectPlayer()
     {
-        if (Physics2D.OverlapCircle(this.transform.position, DetectRadius, layerMask)) //  tạo 1 hình tròn để phát hiện player
+        if (Physics2D.OverlapCircle(this.transform.position, DetectRadius, playerLayerMask)) //  tạo 1 hình tròn để phát hiện player
         {
-            Collider2D hit = Physics2D.OverlapCircle(this.transform.position, DetectRadius, layerMask);
+            Collider2D hit = Physics2D.OverlapCircle(this.transform.position, DetectRadius, playerLayerMask);
             return true;
         }
         else
@@ -227,8 +259,10 @@ public class Enemy : Entity, IGethit
 
         //reset thời gian đợi rồi đánh
         attackCountdown = attackCooldown;
+
         //Tắt gameobject tấn công
         atk.EndAttack();
+
     }
 
     public override void _PushBack(Vector3 pos) //Lấy hướng đẩy lùi và lưu vận tốc đẩy lùi
@@ -245,6 +279,5 @@ public class Enemy : Entity, IGethit
         pushBackVelocity = Vector2.zero;
         isPushBack = false;
     }
-
 }
 

@@ -93,9 +93,9 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -323,7 +323,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stone1 ground-path to grass transp_0: 7799649701832842802
+      stone1 ground-path to grass transp_1: -6278726618056577577
+      stone1 ground-path to grass transp_2: 8425373896005951996
+      stone1 ground-path to grass transp_3: -5236371586424841071
+      stone1 ground-path to grass transp_4: 1074968121159687940
+      stone1 ground-path to grass transp_5: -4351273032984825255
+      stone1 ground-path to grass transp_6: 7121279665874769501
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

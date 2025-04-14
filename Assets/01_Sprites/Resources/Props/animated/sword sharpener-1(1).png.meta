@@ -81,12 +81,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sword sharpener-1(1)_0: 7291249668978034792
+      sword sharpener-1(1)_1: 6711417959937393299
+      sword sharpener-1(1)_2: -3653986791147702234
+      sword sharpener-1(1)_3: -2454548743722704101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -141,7 +141,9 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 84b0db8c4ee0e0245825fcf5515d80bc, type: 2}
+  - {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -764,19 +766,19 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: SORTIFY
-    EmbeddedLinux: SORTIFY
-    GameCoreXboxOne: SORTIFY
-    Nintendo Switch: SORTIFY
-    PS4: SORTIFY
-    PS5: SORTIFY
-    QNX: SORTIFY
-    ReservedCFE: SORTIFY
-    Standalone: SORTIFY
-    VisionOS: SORTIFY
-    WebGL: SORTIFY
-    XboxOne: SORTIFY
-    tvOS: SORTIFY
+    Android: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    EmbeddedLinux: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    GameCoreXboxOne: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    Nintendo Switch: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    PS4: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    PS5: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    QNX: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    ReservedCFE: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: SORTIFY;UNITY_POST_PROCESSING_STACK_V2;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_INSPECTOR_3_2;ODIN_INSPECTOR_3_3
+    VisionOS: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    WebGL: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    XboxOne: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
+    tvOS: SORTIFY;UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
